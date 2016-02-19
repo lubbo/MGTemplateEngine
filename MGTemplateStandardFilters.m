@@ -6,6 +6,7 @@
 //
 
 #import "MGTemplateStandardFilters.h"
+#import <UIKit/UIKit.h>
 
 
 #define UPPERCASE		@"uppercase"

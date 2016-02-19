@@ -11,10 +11,10 @@
 #import "DeepMutableCopy.h"
 
 
-#define DEFAULT_MARKER_START		@"{%"
-#define DEFAULT_MARKER_END			@"%}"
-#define DEFAULT_EXPRESSION_START	@"{{"	// should always be different from marker-start
-#define DEFAULT_EXPRESSION_END		@"}}"
+#define DEFAULT_MARKER_START		@"<#"
+#define DEFAULT_MARKER_END			@">"
+#define DEFAULT_EXPRESSION_START	@"${"	// should always be different from marker-start
+#define DEFAULT_EXPRESSION_END		@"}"
 #define DEFAULT_FILTER_START		@"|"
 #define DEFAULT_LITERAL_START		@"literal"
 #define DEFAULT_LITERAL_END			@"/literal"

@@ -11,6 +11,18 @@
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		C730E8301C773C020069387D /* MGTemplateEngineFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = C730E82F1C773C020069387D /* MGTemplateEngineFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C730E8371C773C020069387D /* MGTemplateEngineFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C730E82D1C773C020069387D /* MGTemplateEngineFramework.framework */; };
+		C730E83C1C773C020069387D /* MGTemplateEngineFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C730E83B1C773C020069387D /* MGTemplateEngineFrameworkTests.m */; };
+		C730E8441C773C300069387D /* MGTemplateEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D870100DE1FD2700F0B62A /* MGTemplateEngine.m */; };
+		C730E8451C773C300069387D /* MGTemplateStandardMarkers.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D870160DE1FD2700F0B62A /* MGTemplateStandardMarkers.m */; };
+		C730E8461C773C300069387D /* MGTemplateStandardFilters.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D870140DE1FD2700F0B62A /* MGTemplateStandardFilters.m */; };
+		C730E8471C773C300069387D /* ICUTemplateMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D8701E0DE1FD5C00F0B62A /* ICUTemplateMatcher.m */; };
+		C730E8481C773C300069387D /* NSArray_DeepMutableCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D8705E0DE2094000F0B62A /* NSArray_DeepMutableCopy.m */; };
+		C730E8491C773C300069387D /* NSDictionary_DeepMutableCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D870600DE2094000F0B62A /* NSDictionary_DeepMutableCopy.m */; };
+		C730E84B1C773C5C0069387D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C730E84A1C773C5C0069387D /* Foundation.framework */; };
+		C730E84D1C773C680069387D /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C730E84C1C773C680069387D /* libicucore.tbd */; };
+		C730E84F1C77513B0069387D /* sample_template.txt in Resources */ = {isa = PBXBuildFile; fileRef = C9D870E10DE20D9D00F0B62A /* sample_template.txt */; };
 		C9ABE0C40DE2EBF8009E7BC8 /* Writing Filters.md in Resources */ = {isa = PBXBuildFile; fileRef = C9ABE0C10DE2EBF8009E7BC8 /* Writing Filters.md */; };
 		C9ABE0C50DE2EBF8009E7BC8 /* Writing Markers.md in Resources */ = {isa = PBXBuildFile; fileRef = C9ABE0C20DE2EBF8009E7BC8 /* Writing Markers.md */; };
 		C9ABE0C60DE2EBF8009E7BC8 /* Writing Matchers.md in Resources */ = {isa = PBXBuildFile; fileRef = C9ABE0C30DE2EBF8009E7BC8 /* Writing Matchers.md */; };
@@ -26,6 +38,16 @@
 		C9D871840DE21DBE00F0B62A /* Source Code License.rtf in Resources */ = {isa = PBXBuildFile; fileRef = C9D871830DE21DBE00F0B62A /* Source Code License.rtf */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		C730E8381C773C020069387D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C730E82C1C773C020069387D;
+			remoteInfo = MGTemplateEngineFramework;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
@@ -37,6 +59,15 @@
 		32CA4F630368D1EE00C91783 /* MGTemplateEngine_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGTemplateEngine_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* MGTemplateEngine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MGTemplateEngine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C730E82D1C773C020069387D /* MGTemplateEngineFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MGTemplateEngineFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C730E82F1C773C020069387D /* MGTemplateEngineFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGTemplateEngineFramework.h; sourceTree = "<group>"; };
+		C730E8311C773C020069387D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C730E8361C773C020069387D /* MGTemplateEngineFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MGTemplateEngineFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C730E83B1C773C020069387D /* MGTemplateEngineFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MGTemplateEngineFrameworkTests.m; sourceTree = "<group>"; };
+		C730E83D1C773C020069387D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C730E84A1C773C5C0069387D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		C730E84C1C773C680069387D /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/usr/lib/libicucore.tbd; sourceTree = DEVELOPER_DIR; };
+		C730E84E1C774F7A0069387D /* MGTemplateEngineiOS_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGTemplateEngineiOS_Prefix.pch; sourceTree = "<group>"; };
 		C9ABE0C10DE2EBF8009E7BC8 /* Writing Filters.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Writing Filters.md"; sourceTree = "<group>"; };
 		C9ABE0C20DE2EBF8009E7BC8 /* Writing Markers.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Writing Markers.md"; sourceTree = "<group>"; };
 		C9ABE0C30DE2EBF8009E7BC8 /* Writing Matchers.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Writing Matchers.md"; sourceTree = "<group>"; };
@@ -70,6 +101,23 @@
 			files = (
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
 				C9D8704A0DE2007C00F0B62A /* libicucore.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C730E8291C773C020069387D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C730E84D1C773C680069387D /* libicucore.tbd in Frameworks */,
+				C730E84B1C773C5C0069387D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C730E8331C773C020069387D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C730E8371C773C020069387D /* MGTemplateEngineFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,6 +158,8 @@
 			isa = PBXGroup;
 			children = (
 				8D1107320486CEB800E47090 /* MGTemplateEngine.app */,
+				C730E82D1C773C020069387D /* MGTemplateEngineFramework.framework */,
+				C730E8361C773C020069387D /* MGTemplateEngineFrameworkTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -123,6 +173,8 @@
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
+				C730E82E1C773C020069387D /* MGTemplateEngineFramework */,
+				C730E83A1C773C020069387D /* MGTemplateEngineFrameworkTests */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
 			);
@@ -132,6 +184,7 @@
 		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
+				C730E84E1C774F7A0069387D /* MGTemplateEngineiOS_Prefix.pch */,
 				32CA4F630368D1EE00C91783 /* MGTemplateEngine_Prefix.pch */,
 				29B97316FDCFA39411CA2CEA /* main.m */,
 			);
@@ -151,10 +204,30 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C730E84C1C773C680069387D /* libicucore.tbd */,
+				C730E84A1C773C5C0069387D /* Foundation.framework */,
 				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
 				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C730E82E1C773C020069387D /* MGTemplateEngineFramework */ = {
+			isa = PBXGroup;
+			children = (
+				C730E82F1C773C020069387D /* MGTemplateEngineFramework.h */,
+				C730E8311C773C020069387D /* Info.plist */,
+			);
+			path = MGTemplateEngineFramework;
+			sourceTree = "<group>";
+		};
+		C730E83A1C773C020069387D /* MGTemplateEngineFrameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				C730E83B1C773C020069387D /* MGTemplateEngineFrameworkTests.m */,
+				C730E83D1C773C020069387D /* Info.plist */,
+			);
+			path = MGTemplateEngineFrameworkTests;
 			sourceTree = "<group>";
 		};
 		C9ABE0BF0DE2EBE3009E7BC8 /* Extensibility Docs */ = {
@@ -215,6 +288,17 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		C730E82A1C773C020069387D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C730E8301C773C020069387D /* MGTemplateEngineFramework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
 		8D1107260486CEB800E47090 /* MGTemplateEngine */ = {
 			isa = PBXNativeTarget;
@@ -234,13 +318,57 @@
 			productReference = 8D1107320486CEB800E47090 /* MGTemplateEngine.app */;
 			productType = "com.apple.product-type.application";
 		};
+		C730E82C1C773C020069387D /* MGTemplateEngineFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C730E8421C773C020069387D /* Build configuration list for PBXNativeTarget "MGTemplateEngineFramework" */;
+			buildPhases = (
+				C730E8281C773C020069387D /* Sources */,
+				C730E8291C773C020069387D /* Frameworks */,
+				C730E82A1C773C020069387D /* Headers */,
+				C730E82B1C773C020069387D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MGTemplateEngineFramework;
+			productName = MGTemplateEngineFramework;
+			productReference = C730E82D1C773C020069387D /* MGTemplateEngineFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C730E8351C773C020069387D /* MGTemplateEngineFrameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C730E8431C773C020069387D /* Build configuration list for PBXNativeTarget "MGTemplateEngineFrameworkTests" */;
+			buildPhases = (
+				C730E8321C773C020069387D /* Sources */,
+				C730E8331C773C020069387D /* Frameworks */,
+				C730E8341C773C020069387D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C730E8391C773C020069387D /* PBXTargetDependency */,
+			);
+			name = MGTemplateEngineFrameworkTests;
+			productName = MGTemplateEngineFrameworkTests;
+			productReference = C730E8361C773C020069387D /* MGTemplateEngineFrameworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0720;
+				TargetAttributes = {
+					C730E82C1C773C020069387D = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					C730E8351C773C020069387D = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MGTemplateEngine" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -254,6 +382,8 @@
 			projectRoot = "";
 			targets = (
 				8D1107260486CEB800E47090 /* MGTemplateEngine */,
+				C730E82C1C773C020069387D /* MGTemplateEngineFramework */,
+				C730E8351C773C020069387D /* MGTemplateEngineFrameworkTests */,
 			);
 		};
 /* End PBXProject section */
@@ -270,6 +400,21 @@
 				C9ABE0C40DE2EBF8009E7BC8 /* Writing Filters.md in Resources */,
 				C9ABE0C50DE2EBF8009E7BC8 /* Writing Markers.md in Resources */,
 				C9ABE0C60DE2EBF8009E7BC8 /* Writing Matchers.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C730E82B1C773C020069387D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C730E8341C773C020069387D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C730E84F1C77513B0069387D /* sample_template.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,7 +436,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C730E8281C773C020069387D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C730E8441C773C300069387D /* MGTemplateEngine.m in Sources */,
+				C730E8451C773C300069387D /* MGTemplateStandardMarkers.m in Sources */,
+				C730E8461C773C300069387D /* MGTemplateStandardFilters.m in Sources */,
+				C730E8471C773C300069387D /* ICUTemplateMatcher.m in Sources */,
+				C730E8481C773C300069387D /* NSArray_DeepMutableCopy.m in Sources */,
+				C730E8491C773C300069387D /* NSDictionary_DeepMutableCopy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C730E8321C773C020069387D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C730E83C1C773C020069387D /* MGTemplateEngineFrameworkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C730E8391C773C020069387D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C730E82C1C773C020069387D /* MGTemplateEngineFramework */;
+			targetProxy = C730E8381C773C020069387D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
@@ -328,6 +502,7 @@
 				GCC_PREFIX_HEADER = MGTemplateEngine_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:identifier}";
 				PRODUCT_NAME = MGTemplateEngine;
 			};
 			name = Debug;
@@ -344,6 +519,7 @@
 				GCC_PREFIX_HEADER = MGTemplateEngine_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:identifier}";
 				PRODUCT_NAME = MGTemplateEngine;
 			};
 			name = Release;
@@ -351,6 +527,7 @@
 		C01FCF4F08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -367,6 +544,196 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
+			};
+			name = Release;
+		};
+		C730E83E1C773C020069387D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = MGTemplateEngineiOS_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = MGTemplateEngineFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thedigitalstack.MGTemplateEngineFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C730E83F1C773C020069387D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = MGTemplateEngineiOS_Prefix.pch;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = MGTemplateEngineFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thedigitalstack.MGTemplateEngineFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C730E8401C773C020069387D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = MGTemplateEngineFrameworkTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thedigitalstack.MGTemplateEngineFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C730E8411C773C020069387D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = MGTemplateEngineFrameworkTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thedigitalstack.MGTemplateEngineFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -390,6 +757,22 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		C730E8421C773C020069387D /* Build configuration list for PBXNativeTarget "MGTemplateEngineFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C730E83E1C773C020069387D /* Debug */,
+				C730E83F1C773C020069387D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C730E8431C773C020069387D /* Build configuration list for PBXNativeTarget "MGTemplateEngineFrameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C730E8401C773C020069387D /* Debug */,
+				C730E8411C773C020069387D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
